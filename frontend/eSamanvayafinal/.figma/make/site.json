@@ -1,0 +1,10 @@
+{
+  "description": "eSamanvaya streamlines access to government digital services through secure, consent-based interoperability, enhancing citizen engagement and simplifying workflows.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

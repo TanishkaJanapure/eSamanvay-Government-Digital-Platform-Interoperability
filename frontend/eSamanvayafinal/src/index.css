@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-bg: #F5F8FC;
+  --color-primary: #1D4ED8;
+  --color-primary-light: #EFF6FF;
+  --color-primary-dark: #1E3A8A;
+  --color-accent: #0D9488;
+  --color-accent-light: #F0FDFA;
+  --color-navy: #0F172A;
+  --color-navy-600: #1E293B;
+  --color-navy-400: #334155;
+  --color-muted: #64748B;
+  --color-card: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-border-strong: #CBD5E1;
+  --color-surface: #F8FAFC;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F8FC;
+  color: #0F172A;
+}
+
+/* Hide scrollbar until hover */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 2px;
+}
+
+@keyframes bounce-dot {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+}
+.animate-bounce {
+  animation: bounce-dot 1s ease-in-out infinite;
+}
